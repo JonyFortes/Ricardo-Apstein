@@ -1,0 +1,103 @@
+
+    html{
+        background-color: #ececec;
+    }
+    h1 img{
+        width:60%;
+        margin: 0 20%;  
+    }
+    h2{
+        text-align: center;
+        font-size: 38px;
+        font-family:"Pinyon Script", cursive;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    h3{
+        margin-top: 0;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 300;
+        font-family: "Saira", sans-serif;
+        color:#646262
+    }
+    .cont{
+        width: 50%;
+        margin: 0;
+        float: left;
+    }
+    p{
+        text-align: center;
+        font-family: 'Lato';
+    }
+    #desc{
+        width: 90%;
+        margin: 0 5%;
+    }
+    #wpp{
+        margin-top: 24px;
+        background-color: #25D366;
+    }
+    #wpp::before{
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="%23FFFFFF" d="M12 0C5.373 0 0 5.373 0 12c0 2.089.542 4.073 1.569 5.836L0 24l6.408-1.553A11.953 11.953 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0m5.193 16.094c-.216.609-1.248 1.175-1.722 1.25-.464.075-.997.106-1.605-.105-.369-.124-.841-.274-1.451-.537-2.551-1.09-4.21-3.631-4.338-3.801-.127-.17-1.037-1.382-1.037-2.636s.656-1.874.888-2.127c.233-.254.511-.318.682-.318h.49c.157 0 .367-.043.567.429.216.5.733 1.716.797 1.842.064.127.107.275.021.444-.085.17-.127.275-.254.42-.127.145-.267.32-.382.43-.127.127-.26.265-.111.524.148.26.658 1.085 1.412 1.754.97.861 1.789 1.127 2.048 1.253.26.127.41.106.564-.064.148-.17.648-.754.821-1.012.17-.26.349-.212.582-.127.233.085 1.497.705 1.753.835.255.127.424.19.49.297.063.106.063.61-.148 1.218"/></svg>');
+    background-size: cover;
+    float: left;
+
+    }
+    #email{
+        background-color: #ec4c4c;
+    }
+    #email::before{
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%23FFFFFF" d="M12 12.713L1.5 5.196V18.5q0 .625.438 1.063T3 20h18q.625 0 1.063-.438T22.5 18.5V5.196zm0-2.426L21.696 4H2.304zM1.5 3.5q0-.625.438-1.063T3 2h18q.625 0 1.063.438T22.5 3.5V5l-10.5 7L1.5 5z"/%3E%3C/svg%3E');
+    background-size: cover;
+    float: left;
+
+    }
+    #web{
+        background-color: #4c91ec;
+    }
+    #web::before{
+    content: "";
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%23FFFFFF" d="M12 2a10 10 0 1 0 10 10A10.029 10.029 0 0 0 12 2m7.938 9h-3.375a16.41 16.41 0 0 0-1.5-5.6A8.032 8.032 0 0 1 19.938 11M12 4.062A14.34 14.34 0 0 1 14.875 11h-5.75A14.34 14.34 0 0 1 12 4.062M4.063 13h3.375a16.41 16.41 0 0 0 1.5 5.6A8.032 8.032 0 0 1 4.063 13M12 19.938A14.34 14.34 0 0 1 9.125 13h5.75A14.34 14.34 0 0 1 12 19.938M8.625 11h-3.75a8.032 8.032 0 0 1 4.875-6.6A16.41 16.41 0 0 0 8.625 11m6.75 2a16.41 16.41 0 0 0 1.5 5.6 8.032 8.032 0 0 1-4.875 2.4 16.41 16.41 0 0 0 1.5-5.6z"/%3E%3C/svg%3E');
+    background-size: cover;
+    float: left;
+
+    }
+    #contacto{
+        width: 80%;
+        margin: 0 auto;
+    }
+    button{
+        width: 100%;
+        height: 40px;
+        font-family: 'Lato';
+        border: 0;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 40px; /* Ajusta según el tamaño del icono */
+        position: relative;
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+        font-weight: 800;
+        font-size: 22px;
+        font-family: 'Lato';
+    }
+    button::before{
+    position: absolute;
+    left: 10px; /* Distancia del borde izquierdo */
+    }
