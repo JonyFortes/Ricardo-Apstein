@@ -25,6 +25,8 @@
         width: 50%;
         margin: 0;
         float: left;
+        margin-bottom: 30px;
+        
     }
     p{
         text-align: center;
@@ -87,17 +89,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 40px; /* Ajusta según el tamaño del icono */
+        padding-left: 40px; 
         position: relative;
     }
     button a{
         text-decoration: none;
         color: white;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 22px;
-        font-family: 'Lato';
+        font-family: "Lato", sans-serif;
     }
     button::before{
     position: absolute;
-    left: 10px; /* Distancia del borde izquierdo */
+    left: 10px; 
     }
